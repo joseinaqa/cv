@@ -138,7 +138,7 @@ export default function Page() {
             );
           })}
         </Section>
-        <Section className="print-force-new-page">
+        <Section className="print-force-new-page print:pt-4">
           <h2 className="text-xl font-bold">Education</h2>
           {RESUME_DATA.education.map((education) => {
             return (
