@@ -42,19 +42,16 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Sotky",
+      company: "Momentum",
       link: "https://www.momentum.am/",
       badges: ["Remote"],
       title: "Full Stack Engineer → Frontend Engineer",
       start: "Dec 2022",
       end: "Present",
       description: [
-        "4 different projects under the names of Joiny → Momentum.",
-        "Built and led Momentum's two versions of Webapp using Electron and Vite, the landing page with Next.js and Strapi CMS, and other experimental projects.",
-        "Built and led Joiny's two versions of frontends using React and TypeScript using Next.js.",
-        "Initialized and developed Joiny's first backend with GraphQL and Golang.",
-        "Built experimental internal Figma to Code and story generator commandline using TypeScript, Figma API and Vercel's AI client.",
-        "Technologies: React, TypeScript, Tailwind, Next.js, Electron, Vite, ShadCN UI, Storybook, GraphQL, Golang, OpenAPI",
+        "Built and led Momentum's digital twin web app with dozens of tech-intensive features throughout dozens of pivots by utilizing a robust architecture.",
+        "Built dozens of experimental / side projects each with their own required tech dependencies and constraints and deployed on AWS or Vercel.",
+        "Technologies: React, TypeScript, Tailwind, Tanstack, Vite, Next.js, THREE.js, ShadCN UI, v0, Vercel AI SDK, Strapi, Electron, Storybook, GraphQL, Golang, OpenAPI",
       ].join('\n'),
     },
     {
@@ -105,6 +102,20 @@ export const RESUME_DATA = {
     "GoLang",
   ],
   projects: [
+    {
+      title: "Momentum Universe",
+      techStack: [
+        "Frontend Engineer",
+        "TypeScript",
+        "Next.js",
+        "Tailwind",
+        "THREE.js",
+      ],
+      description: "Market Visualization Frontend Base",
+      link: {
+        href: "https://universe.momentum.am/",
+      },
+    },
     {
       title: "Momentum Landing",
       techStack: [
