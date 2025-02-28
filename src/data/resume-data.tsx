@@ -204,6 +204,9 @@ export const RESUME_DATA = {
       title: "Divar",
       techStack: ["Frontend Engineer", "React", "JavaScript", "Redux", "Sass"],
       description: "The biggest classified ads platform in Iran",
+      link: {
+        href: "https://divar.ir/",
+      },
     },
   ],
 } as const;
