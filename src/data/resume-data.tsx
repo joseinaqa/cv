@@ -107,9 +107,9 @@ export const RESUME_DATA = {
       techStack: [
         "Frontend Engineer",
         "TypeScript",
+        "THREE.js",
         "Next.js",
         "Tailwind",
-        "THREE.js",
       ],
       description: "Market Visualization Frontend Base",
       link: {
