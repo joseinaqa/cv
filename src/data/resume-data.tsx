@@ -5,15 +5,14 @@ export const RESUME_DATA = {
   initials: "HA",
   location: "Amsterdam, Netherlands, CET",
   locationLink: "https://www.google.com/maps/place/Amsterdam",
-  about:
-    "Full Stack Engineer",
+  about: "Full Stack Engineer",
   summary: [
     "I am a Full Stack Engineer with about 6 years of experience, mostly in the frontend.",
     "I have a solid knowledge of JavaScript and TypeScript, but my main expertise is in React and its ecosystem.",
     "On the backend side, I have development experience with Apollo Server, express, Nest.js, Django and Golang, with GraphQL and REST APIs.",
     "I have experience deploying applications with multiple services to AWS from scratch, using CI/CD pipelines or manually.",
     "I am a good problem-solver, I have the passion to build user friendly products, and I have good intuition and study, about system design.",
-  ].join(' '),
+  ].join(" "),
   avatarUrl: "https://avatars.githubusercontent.com/u/5280205?v=4",
   personalWebsiteUrl: "https://josein.me",
   contact: {
@@ -52,7 +51,7 @@ export const RESUME_DATA = {
         "Built and led Momentum's digital twin web app with dozens of tech-intensive features throughout dozens of pivots by utilizing a robust architecture.",
         "Built dozens of experimental / side projects each with their own required tech dependencies and constraints and deployed on AWS or Vercel.",
         "Technologies: React, TypeScript, Tailwind, Tanstack, Vite, Next.js, THREE.js, ShadCN UI, v0, Vercel AI SDK, Strapi, Electron, Storybook, GraphQL, Golang, OpenAPI",
-      ].join('\n'),
+      ].join("\n"),
     },
     {
       company: "Recom",
@@ -64,7 +63,7 @@ export const RESUME_DATA = {
       description: [
         "Developed Recom's full stack monorepo and Android/iOS React Native project. Led the frontend and rewrote the backend using Nest.js.",
         "Technologies: React, TypeScript, Tailwind, Next.js, GraphQL, Apollo Server, Nest.js, Prisma, PostgreSQL, React Native",
-      ].join('\n'),
+      ].join("\n"),
     },
     {
       company: "ZedTeam",
@@ -76,7 +75,7 @@ export const RESUME_DATA = {
       description: [
         "Developed ZedTeam's product, Frizi using Vue.js and Django.",
         "Technologies: Vue.js, JavaScript, Django, Material UI, REST API",
-      ].join('\n'),
+      ].join("\n"),
     },
     {
       company: "Divar",
@@ -89,7 +88,7 @@ export const RESUME_DATA = {
         "Divar is the biggest classified ads platform in Iran.",
         "Developed Divar's web application, chat application and UI library using React.",
         "Technologies: React, JavaScript, Redux, Sass, REST API",
-      ].join('\n'),
+      ].join("\n"),
     },
   ],
   skills: [
@@ -102,6 +101,23 @@ export const RESUME_DATA = {
     "GoLang",
   ],
   projects: [
+    {
+      title: "Momentum App",
+      techStack: [
+        "Frontend Engineer",
+        "TypeScript",
+        "Tailwind",
+        "Tanstack Router",
+        "React Query",
+        "Radix UI",
+        "Vite",
+      ],
+      description:
+        "Fine-tuned matches for you to build your professional network",
+      link: {
+        href: "https://app.momentum.am/",
+      },
+    },
     {
       title: "Momentum Universe",
       techStack: [
@@ -125,17 +141,17 @@ export const RESUME_DATA = {
         "Tailwind",
         "React Query",
         "GraphQL",
-        "ShadCN UI",
+        "Radix UI",
         "Framer Motion",
         "Strapi CMS",
       ],
       description: "Intelligent Digital Twin of Organization",
       link: {
-        href: "https://www.momentum.am/",
+        href: "https://home.momentum.am/",
       },
     },
     {
-      title: "Momentum Webapp",
+      title: "Momentum Task Management System Webapp",
       techStack: [
         "Frontend Engineer",
         "TypeScript",
@@ -144,7 +160,7 @@ export const RESUME_DATA = {
         "React Query",
         "Tanstack Router",
         "OpenAPI",
-        "ShadCN UI",
+        "Radix UI",
         "ReactFlow",
         "Electron",
         "Unity/WebGL Embedding",
@@ -197,7 +213,13 @@ export const RESUME_DATA = {
     },
     {
       title: "Frizi",
-      techStack: ["Full Stack Engineer", "Vue.js", "JavaScript", "Django", "Material UI"],
+      techStack: [
+        "Full Stack Engineer",
+        "Vue.js",
+        "JavaScript",
+        "Django",
+        "Material UI",
+      ],
       description: "Virtual Office for Appointments and Meetings",
     },
     {
