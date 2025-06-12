@@ -21,7 +21,12 @@ export default function Page() {
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
             <h1 className="text-2xl font-bold">
-              <a href={RESUME_DATA.personalWebsiteUrl} className="hover:underline">{RESUME_DATA.name}</a>
+              <a
+                href={RESUME_DATA.personalWebsiteUrl}
+                className="hover:underline"
+              >
+                {RESUME_DATA.name}
+              </a>
             </h1>
             <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground">
               {RESUME_DATA.about}
@@ -106,9 +111,16 @@ export default function Page() {
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
-          {RESUME_DATA.work.map((work) => {
+          {RESUME_DATA.work.map((work, index) => {
             return (
-              <Card key={work.company}>
+              <Card
+                key={work.company}
+                className={
+                  index === RESUME_DATA.work.length - 1
+                    ? "print-force-new-page print:pt-4"
+                    : ""
+                }
+              >
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
@@ -139,14 +151,14 @@ export default function Page() {
                 </CardHeader>
                 <CardContent className="mt-2 whitespace-pre-wrap text-xs">
                   <ul>
-                  {work.description.map((line) => (
-                    <li key={line} className="list-disc">
-                      {line}
-                    </li>
-                  ))}
+                    {work.description.map((line) => (
+                      <li key={line} className="list-disc">
+                        {line}
+                      </li>
+                    ))}
                   </ul>
                   <div className="mt-2">
-                    <span className="font-bold">Tech Stack:</span>{' '}
+                    <span className="font-bold">Tech Stack:</span>{" "}
                     {work.techStack}
                   </div>
                 </CardContent>
@@ -154,7 +166,7 @@ export default function Page() {
             );
           })}
         </Section>
-        <Section className="print-force-new-page print:pt-4">
+        <Section>
           <h2 className="text-xl font-bold">Education</h2>
           {RESUME_DATA.education.map((education) => {
             return (
