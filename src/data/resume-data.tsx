@@ -7,12 +7,13 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Amsterdam",
   about: "Full Stack Engineer",
   summary: [
-    "I am a Full Stack Engineer with about 6 years of experience, mostly in the frontend.",
-    "I have a solid knowledge of JavaScript and TypeScript, but my main expertise is in React and its ecosystem.",
-    "On the backend side, I have development experience with Apollo Server, express, Nest.js, Django and Golang, with GraphQL and REST APIs.",
-    "I have experience deploying applications with multiple services to AWS from scratch, using CI/CD pipelines or manually.",
-    "I am a good problem-solver, I have the passion to build user friendly products, and I have good intuition and study, about system design.",
-  ].join(" "),
+    "Full Stack Engineer with 6 years of experience, primarily focused on frontend development using React and TypeScript",
+    "Strong backend experience with Node.js, Nest.js, GraphQL, REST APIs, Python/Django, and Golang",
+    "Proficient in deploying and maintaining applications on AWS and Vercel using CI/CD pipelines",
+    "Fast learner with the ability to quickly adapt to new technologies and development environments",
+    "Passionate about solving complex problems and building user-centric, scalable products",
+    "Strong understanding of system design and software architecture",
+  ],
   avatarUrl: "https://avatars.githubusercontent.com/u/5280205?v=4",
   personalWebsiteUrl: "https://josein.me",
   contact: {
@@ -48,10 +49,12 @@ export const RESUME_DATA = {
       start: "Dec 2022",
       end: "Present",
       description: [
-        "Built and led Momentum's digital twin web app with dozens of tech-intensive features throughout dozens of pivots by utilizing a robust architecture.",
-        "Built dozens of experimental / side projects each with their own required tech dependencies and constraints and deployed on AWS or Vercel.",
-        "Technologies: React, TypeScript, Tailwind, Tanstack, Vite, Next.js, THREE.js, ShadCN UI, v0, Vercel AI SDK, Strapi, Electron, Storybook, GraphQL, Golang, OpenAPI",
-      ].join("\n"),
+        "Led development of Momentum’s digital twin web application, architecting scalable solutions through multiple pivots",
+        "Built and maintained several internal tools and experimental projects tailored to unique tech constraints and deployed to AWS or Vercel",
+        "Implemented high-performance, real-time interactive experiences using THREE.js, optimized for responsiveness and scalability",
+      ],
+      techStack:
+        "React, TypeScript, Tailwind, Tanstack Start, Framer Motion, Next.js, THREE.js, ShadCN UI, v0, Vercel AI SDK, Strapi, Electron, Storybook, GraphQL, Golang, OpenAPI",
     },
     {
       company: "Recom",
@@ -61,9 +64,11 @@ export const RESUME_DATA = {
       start: "Jul 2021",
       end: "Nov 2022",
       description: [
-        "Developed Recom's full stack monorepo and Android/iOS React Native project. Led the frontend and rewrote the backend using Nest.js.",
-        "Technologies: React, TypeScript, Tailwind, Next.js, GraphQL, Apollo Server, Nest.js, Prisma, PostgreSQL, React Native",
-      ].join("\n"),
+        "Developed Recom’s full-stack monorepo using Next.js and mobile application using React Native",
+        "Rewrote and modularized backend services using Nest.js, Apollo Server, and Prisma",
+      ],
+      techStack:
+        "React, TypeScript, Tailwind, Next.js, GraphQL, Apollo Server, Nest.js, Prisma, PostgreSQL, React Native",
     },
     {
       company: "ZedTeam",
@@ -73,9 +78,11 @@ export const RESUME_DATA = {
       start: "Jan 2021",
       end: "Jun 2021",
       description: [
-        "Developed ZedTeam's product, Frizi using Vue.js and Django.",
-        "Technologies: Vue.js, JavaScript, Django, Material UI, REST API",
-      ].join("\n"),
+        "Built Frizi, a virtual office platform for meetings and appointments",
+        "Developed responsive frontend with Nuxt/Vue.js and Material UI",
+        "Designed and implemented backend services using Django and REST APIs",
+      ],
+      techStack: "Nuxt.js, Vue.js, JavaScript, Django, Material UI, REST API",
     },
     {
       company: "Divar",
@@ -85,10 +92,12 @@ export const RESUME_DATA = {
       start: "Oct 2018",
       end: "Dec 2020",
       description: [
-        "Divar is the biggest classified ads platform in Iran.",
-        "Developed Divar's web application, chat application and UI library using React.",
-        "Technologies: React, JavaScript, Redux, Sass, REST API",
-      ].join("\n"),
+        "Contributed to Divar, the largest classified ads platform in Iran, serving millions of users",
+        "Developed and maintained critical parts of the web application and chat interface",
+        "Built and maintained Divar’s internal React-based UI component library",
+        "Collaborated in an agile team environment, focusing on performance and accessibility",
+      ],
+      techStack: "React, JavaScript, Redux, Sass, REST API",
     },
   ],
   skills: [
@@ -107,15 +116,29 @@ export const RESUME_DATA = {
         "Frontend Engineer",
         "TypeScript",
         "Tailwind",
-        "Tanstack Router",
+        "Tanstack Start",
         "React Query",
         "Radix UI",
-        "Vite",
       ],
       description:
         "Fine-tuned matches for you to build your professional network",
       link: {
         href: "https://app.momentum.am/",
+      },
+    },
+    {
+      title: "Momentum Event Gifts",
+      techStack: [
+        "Frontend Engineer",
+        "TypeScript",
+        "Tailwind",
+        "React Query",
+        "Radix UI",
+        "Next.js",
+      ],
+      description: "Empower Your Community with AI",
+      link: {
+        href: "https://gift.momentum.am/",
       },
     },
     {

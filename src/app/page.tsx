@@ -11,7 +11,7 @@ import { ProjectCard } from "@/components/project-card";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
-  description: RESUME_DATA.summary,
+  description: RESUME_DATA.summary.join(" "),
 };
 
 export default function Page() {
@@ -96,9 +96,13 @@ export default function Page() {
         </div>
         <Section>
           <h2 className="text-xl font-bold">About</h2>
-          <p className="text-pretty font-mono text-sm text-muted-foreground">
-            {RESUME_DATA.summary}
-          </p>
+          <ul className="text-pretty font-mono text-sm text-muted-foreground">
+            {RESUME_DATA.summary.map((line) => (
+              <li key={line} className="list-disc">
+                {line}
+              </li>
+            ))}
+          </ul>
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
@@ -134,7 +138,17 @@ export default function Page() {
                   </h4>
                 </CardHeader>
                 <CardContent className="mt-2 whitespace-pre-wrap text-xs">
-                  {work.description}
+                  <ul>
+                  {work.description.map((line) => (
+                    <li key={line} className="list-disc">
+                      {line}
+                    </li>
+                  ))}
+                  </ul>
+                  <div className="mt-2">
+                    <span className="font-bold">Tech Stack:</span>{' '}
+                    {work.techStack}
+                  </div>
                 </CardContent>
               </Card>
             );
