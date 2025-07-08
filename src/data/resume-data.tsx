@@ -7,7 +7,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Amsterdam",
   about: "Full Stack Engineer",
   summary: [
-    "Full Stack Engineer with 6 years of experience, primarily focused on frontend development using React and TypeScript",
+    "Full Stack Engineer with 7 years of experience, primarily focused on frontend development using React and TypeScript",
     "Strong backend experience with Node.js, Nest.js, GraphQL, REST APIs, Python/Django, and Golang",
     "Proficient in deploying and maintaining applications on AWS and Vercel using CI/CD pipelines",
     "Fast learner with the ability to quickly adapt to new technologies and development environments",
