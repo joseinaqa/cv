@@ -5,11 +5,10 @@ export const RESUME_DATA = {
   initials: "HA",
   location: "Amsterdam, Netherlands, CET",
   locationLink: "https://www.google.com/maps/place/Amsterdam",
-  about: "Full Stack Engineer",
+  about: "Frontend Engineer",
   summary: [
-    "Full Stack Engineer with 7 years of experience, primarily focused on frontend development using React and TypeScript",
-    "Strong backend experience with Node.js, Nest.js, GraphQL, REST APIs, Python/Django, and Golang",
-    "Proficient in deploying and maintaining applications on AWS and Vercel using CI/CD pipelines",
+    "Frontend Engineer with 7 years of experience, primarily focused on frontend development using React and TypeScript",
+    "Practical knowledge of SEO, web accessibility (a11y), performance optimization, the best practices and the tools",
     "Fast learner with the ability to quickly adapt to new technologies and development environments",
     "Passionate about solving complex problems and building user-centric, scalable products",
     "Strong understanding of system design and software architecture",
@@ -45,7 +44,7 @@ export const RESUME_DATA = {
       company: "Momentum",
       link: "https://www.momentum.am/",
       badges: ["Remote"],
-      title: "Full Stack Engineer → Frontend Engineer",
+      title: "Frontend Engineer",
       start: "Dec 2022",
       end: "Present",
       description: [
@@ -110,6 +109,22 @@ export const RESUME_DATA = {
     "GoLang",
   ],
   projects: [
+    {
+      title: "Country Club",
+      techStack: [
+        "Frontend Engineer",
+        "TypeScript",
+        "Tailwind",
+        "Tanstack Start",
+        "React Query",
+        "Radix UI",
+      ],
+      description:
+        "Country Club brings people intelligence and smart matchmaking to business events",
+      link: {
+        href: "https://country.club/",
+      },
+    },
     {
       title: "Momentum App",
       techStack: [
@@ -189,24 +204,24 @@ export const RESUME_DATA = {
         "Unity/WebGL Embedding",
       ],
       description: "Intelligent Digital Twin of Organization",
-      link: {
-        href: "https://webstaging.momentum.am/",
-      },
+      // link: {
+      //   href: "https://webstaging.momentum.am/",
+      // },
     },
-    {
-      title: "Joiny",
-      techStack: [
-        "Frontend Engineer",
-        "TypeScript",
-        "Next.js",
-        "Tailwind",
-        "OpenAPI",
-        "Tailwind Headless UI",
-        "React Query",
-        "AWS Serverless",
-      ],
-      description: "Eliminating Alignment Frictions",
-    },
+    // {
+    //   title: "Joiny",
+    //   techStack: [
+    //     "Frontend Engineer",
+    //     "TypeScript",
+    //     "Next.js",
+    //     "Tailwind",
+    //     "OpenAPI",
+    //     "Tailwind Headless UI",
+    //     "React Query",
+    //     "AWS Serverless",
+    //   ],
+    //   description: "Eliminating Alignment Frictions",
+    // },
     {
       title: "Recom",
       techStack: [
@@ -223,28 +238,28 @@ export const RESUME_DATA = {
       ],
       description: "Collaborative Social Media Platform",
     },
-    {
-      title: "Fig",
-      techStack: [
-        "CLI Script",
-        "TypeScript",
-        "Figma API",
-        "Vercel AI",
-        "Storybook",
-      ],
-      description: "Figma to Code and Story Generator",
-    },
-    {
-      title: "Frizi",
-      techStack: [
-        "Full Stack Engineer",
-        "Vue.js",
-        "JavaScript",
-        "Django",
-        "Material UI",
-      ],
-      description: "Virtual Office for Appointments and Meetings",
-    },
+    // {
+    //   title: "Fig",
+    //   techStack: [
+    //     "CLI Script",
+    //     "TypeScript",
+    //     "Figma API",
+    //     "Vercel AI",
+    //     "Storybook",
+    //   ],
+    //   description: "Figma to Code and Story Generator",
+    // },
+    // {
+    //   title: "Frizi",
+    //   techStack: [
+    //     "Full Stack Engineer",
+    //     "Vue.js",
+    //     "JavaScript",
+    //     "Django",
+    //     "Material UI",
+    //   ],
+    //   description: "Virtual Office for Appointments and Meetings",
+    // },
     {
       title: "Divar",
       techStack: ["Frontend Engineer", "React", "JavaScript", "Redux", "Sass"],
